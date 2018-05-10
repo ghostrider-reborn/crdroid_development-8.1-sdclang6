@@ -12,6 +12,7 @@ LOCAL_CFLAGS += \
 	-Wno-ignored-qualifiers \
 	-Wno-undefined-var-template \
 	-fno-exceptions \
+	-Wno-null-pointer-arithmetic \
 	-fvisibility=hidden \
 	-DENABLE_DEBUGGER_SUPPORT \
 	-DENABLE_LOGGING_AND_PROFILING \
