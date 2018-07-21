@@ -218,7 +218,8 @@ size_t strlcat(char *, const char *, size_t);
 
 #if defined(NEED_STRLCPY) && !defined(HAVE_STRLCPY)
 
-size_t strlcpy(char *, const char *, size_t);
+size_t strlcpy(char *, const char *, size_t) __attribute__((overloadable));
+
 
 #endif /* NEED_STRLCPY && ! HAVE_STRLCPY */
 
